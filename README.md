@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
 
-## Project info
 
-**URL**: https://lovable.dev/projects/8dbeb989-9b49-426b-9273-98a438f4abdf
+# Web Survei Layanan 110
 
-## How can I edit this code?
+Web Survei Layanan 110 adalah aplikasi berbasis web yang memungkinkan pengguna untuk mengisi survei terkait dengan pelayanan 110. Platform ini terintegrasi dengan **Simola110**, sebuah sistem visualisasi data yang menampilkan laporan dan statistik mengenai layanan 110. Tujuan utama proyek ini adalah untuk memberikan wawasan lebih dalam mengenai kualitas layanan dan memastikan perbaikan berkelanjutan.
 
-There are several ways of editing your application.
+## Fitur Utama
 
-**Use Lovable**
+* **Survei Layanan 110**: Pengguna dapat mengisi survei untuk memberikan penilaian tentang kualitas pelayanan 110 yang diterima.
+* **Integrasi dengan Simola110**: Hasil survei akan langsung terhubung dengan platform visualisasi data Simola110, sehingga memberikan gambaran yang jelas tentang kualitas layanan dari perspektif pengguna.
+* **Tampilan Interaktif**: Desain yang responsif memungkinkan pengguna untuk mengakses dan mengisi survei dengan mudah di berbagai perangkat.
+* **Peningkatan Layanan**: Dengan menganalisis hasil survei dan laporan dari Simola110, pengelola layanan dapat mengambil keputusan yang lebih baik dalam meningkatkan kualitas pelayanan.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8dbeb989-9b49-426b-9273-98a438f4abdf) and start prompting.
+## Teknologi yang Digunakan
 
-Changes made via Lovable will be committed automatically to this repo.
+Proyek ini dibangun menggunakan teknologi-teknologi berikut:
 
-**Use your preferred IDE**
+* **Vite**: Alat pengembangan yang cepat dan efisien.
+* **TypeScript**: Untuk menulis kode yang lebih aman dan terstruktur.
+* **React**: Untuk membangun antarmuka pengguna yang dinamis dan responsif.
+* **Shadcn-UI**: Komponen UI modern yang memberikan pengalaman pengguna yang lebih baik.
+* **Tailwind CSS**: Framework CSS yang fleksibel dan memungkinkan pengembangan UI yang lebih cepat.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Instalasi
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
 
-Follow these steps:
+1. **Clone Repositori**:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+   ```sh
+   git clone <URL_REPOSITORI>
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. **Masuk ke Direktori Proyek**:
 
-# Step 3: Install the necessary dependencies.
-npm i
+   ```sh
+   cd <NAMA_PROYEK>
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+3. **Instal Dependensi**:
+   Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/) dan [npm](https://www.npmjs.com/).
 
-**Edit a file directly in GitHub**
+   ```sh
+   npm install
+   ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+4. **Jalankan Development Server**:
+   Untuk menjalankan aplikasi dengan auto-reload:
 
-**Use GitHub Codespaces**
+   ```sh
+   npm run dev
+   ```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8dbeb989-9b49-426b-9273-98a438f4abdf) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
